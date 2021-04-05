@@ -34,9 +34,9 @@ public class Changepassword extends HttpServlet {
 
 		String password = request.getParameter("pass");
 		String npassword = request.getParameter("npass");
-		String url = "jdbc:mysql://localhost:3306/bhanu";
-		String uname = "root";
-		String pass = "Reset@123";
+		String url = "jdbc:mysql://localhost:3306/***";
+		String uname = "***";
+		String pass = "****";
 		String db = "com.mysql.cj.jdbc.Driver";
 		String sql = "SELECT * from customers where password =?";
 		String pass1=null;
