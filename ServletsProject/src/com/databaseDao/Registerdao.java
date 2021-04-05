@@ -9,9 +9,9 @@ import com.model.Basic;
 public class Registerdao 
 {
 
-	 String url = "jdbc:mysql://localhost:3306/bhanu";
-	 String uname = "root";
-	 String pwd = "Reset@123";
+	 String url = "jdbc:mysql://localhost:3306/****";
+	 String uname = "***";
+	 String pwd = "***";
 
 	public int registration(Basic b) throws ClassNotFoundException {
 		String sql = "insert into customers values(?,?,?,?,?,?,?)";
