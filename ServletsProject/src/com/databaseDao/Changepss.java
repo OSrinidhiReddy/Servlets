@@ -10,9 +10,9 @@ public class Changepss
 {
 	public int changeb(Basic r) {
 		int result = 0;
-		String url = "jdbc:mysql://localhost:3306/bhanu";
-		String uname = "root";
-		String pass = "Reset@123";
+		String url = "jdbc:mysql://localhost:3306/sri";
+		String uname = "***";
+		String pass = "***";
 		String db = "com.mysql.cj.jdbc.Driver";
 		
 		String sql = "update customers set password=? where password =?";
