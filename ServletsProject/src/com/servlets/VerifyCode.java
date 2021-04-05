@@ -66,9 +66,9 @@ public class VerifyCode extends HttpServlet
 			e.printStackTrace();
 		}
 
-		String url = "jdbc:mysql://localhost:3306/bhanu";
-		String uname = "root";
-		String pass = "Reset@123";
+		String url = "jdbc:mysql://localhost:3306/****";
+		String uname = "****";
+		String pass = "****";
 		String db = "com.mysql.cj.jdbc.Driver";
 		String passs = "";
 		String firstname = "";
