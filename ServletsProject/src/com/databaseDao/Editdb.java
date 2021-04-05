@@ -10,9 +10,9 @@ import com.model.Basic;
 public class Editdb {
 	public int edit1(Basic r) {
 		int result = 0;
-		String url = "jdbc:mysql://localhost:3306/bhanu";
-		String uname = "root";
-		String pass = "Reset@123";
+		String url = "jdbc:mysql://localhost:3306/****";
+		String uname = "***";
+		String pass = "***";
 		String db = "com.mysql.cj.jdbc.Driver";
 		
 		String sql = "update customers set lastname=?,emailid=?,mobilenumber=?,photo=? where firstname =?";
