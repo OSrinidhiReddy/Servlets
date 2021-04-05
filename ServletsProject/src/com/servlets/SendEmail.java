@@ -28,8 +28,8 @@ public class SendEmail
 		boolean test=false;
 
 		 String toEmail=user.getEmail();
-		 String fromEmail="basavarajbenki1122@gmail.com";
-		 String password="benki@1231";
+		 String fromEmail="**************";
+		 String password="*************";
 
 
 		try 
