@@ -12,9 +12,9 @@ public class UpdatePassword
 	public static int  updateDetails(OutDetails outdetails) throws ClassNotFoundException
 	{
 
-		String url = "jdbc:mysql://localhost:3306/bhanu";
-		String uname = "root";
-		String pwd = "Reset@123";
+		String url = "jdbc:mysql://localhost:3306/****";
+		String uname = "***";
+		String pwd = "*****";
 		int i=0;
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		try
